@@ -27,7 +27,7 @@ app.use('/photos', require('./routes/photos'));
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, function (err) {
     if (err) console.log("Error in server setup")
-    console.log("Server listening on Port", PORT);
+    console.log("Server listening on Port!", PORT);
 })
 
 
